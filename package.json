@@ -1,11 +1,16 @@
 {
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "serverless-dynamodb-local": "^0.2.39",
     "serverless-offline": "^6.1.2"
   },
   "dependencies": {
     "aws-cdk": "^1.31.0",
+    "babel-preset-react-app": "^9.1.2",
     "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "socket.io": "^2.3.0"
   }
 }
